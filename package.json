@@ -6,9 +6,7 @@
     "node": ">=6"
   },
   "scripts": {
-    "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && npm audit",
     "test": "mocha test/*.spec.js --exit"
   },
   "dependencies": {
